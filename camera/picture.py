@@ -16,8 +16,8 @@ picam.start()
 
 
 for i in range(1, 5):
-    picam.capture_file(f"picture{i}.jpg")  # takes picture and saves it
+    picam.capture_file(f"coffeeMug-{i}.jpg")  # takes picture and saves it
     print(F"Captured image {i}")
-    time.sleep(3)  # lapse between takes
+    time.sleep(5)  # lapse between takes
 
 picam.stop()
